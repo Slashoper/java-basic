@@ -37,6 +37,22 @@ public class StrDemo {
         String str4 = "helloworld234243";
         System.out.println(str4.matches("\\d+"));
 
+        String str5 ="19216801";
+        System.out.println(str5.substring(0,8));
+
+        String str6 = "Hello, World!";
+        int maxLength = 5;
+        String subStr = str6.substring(0, maxLength);
+        System.out.println(subStr);
+
+        String str7 = "h";
+        String str8 = "h";
+        System.out.println(str7== str8);
+        System.out.println("h" == "h");
+
+        String str9 = new String("hell");
+        String str10 = new String("hell");
+        System.out.println(str9 == str10);
 
 
     }
